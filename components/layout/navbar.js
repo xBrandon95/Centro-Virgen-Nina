@@ -1,5 +1,5 @@
 // import { HashLink as Link } from "react-router-hash-link";
-import Link from "next/link";
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -9,21 +9,15 @@ const Navbar = () => {
         <div className="container">
           <Link href="/">
             <img
-              src="/logo.svg"
-              width="68"
-              alt=""
+              src="/images/virgen.png"
+              width="85"
+              alt="logo"
               loading="lazy"
               className="mr-md-3"
             />
           </Link>
           <Link href="/">
-            <img
-              src="/images/epdb1.png"
-              height="44"
-              alt="epdb"
-              className="rounded"
-              loading="lazy"
-            />
+            <img src="/images/epdb.png" height="68" alt="epdb" loading="lazy" />
           </Link>
           <button
             className="navbar-toggler"

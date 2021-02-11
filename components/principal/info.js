@@ -14,12 +14,12 @@ const Info = () => {
                 <img
                   src="/images/ubicacion.png"
                   alt="ubicacion"
-                  className="leaflet-container d-none d-md-block"
+                  className="leaflet-container d-none d-md-block rounded"
                 />
                 <img
                   src="/images/ubicacion2.png"
                   alt="ubicacion"
-                  className="leaflet-container d-block d-md-none"
+                  className="leaflet-container d-block d-md-none rounded"
                 />
               </div>
             </div>
@@ -34,7 +34,7 @@ const Info = () => {
               formación, la atención, y el desarrollo integral y espiritual de
               niños y niñas, jóvenes, mujeres, adultos mayores y familias en
               situación de pobreza y marginalidad, que tuvieron menos
-              oportunidades en la vida.{" "}
+              oportunidades en la vida.{' '}
             </p>
             <p className="mensaje">"Por una vida digna, toda la vida"</p>
           </div>

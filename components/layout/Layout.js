@@ -1,13 +1,13 @@
-import "bootswatch/dist/flatly/bootstrap.min.css";
-import Head from "next/head";
-import Navbar from "./navbar";
-import Footer from "./footer";
+import 'bootswatch/dist/flatly/bootstrap.min.css';
+import Head from 'next/head';
+import Navbar from './navbar';
+import Footer from './footer';
 
 const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Centro Virgen Niña</title>
+        <title>Asociación Centro Virgen Niña</title>
         <link rel="shortcut icon" href="/logo.svg" />
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"

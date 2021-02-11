@@ -1,6 +1,6 @@
 // import { HashLink as Link } from 'react-router-hash-link';
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Card = ({ titulo, enlace, img }) => {
   return (
